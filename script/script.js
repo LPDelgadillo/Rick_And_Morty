@@ -53,7 +53,7 @@ const showMovies = (movies) => {
             <span class="green">${species}</span>
         </div>
         <div class="overview">
-        <h3>Overview</h3>
+        <h3>Status</h3>
             <h3>${status}</h3>
         </div>
         `

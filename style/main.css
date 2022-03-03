@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 :root{
-    --primary-color: #22254b;
+    --primary-color: #4051e4;
     --secundary-color: #373b69;
 }
 
@@ -114,3 +114,11 @@ margin-top: 0;
 .movie:hover .overview{
     transform: translateY(0);
 }
+.movie:hover{
+    -webkit-transform:scale(1.1);
+        -moz-transform:scale(1.1);
+        -ms-transform:scale(1.1);
+        -o-transform:scale(1.1);
+        transform:scale(1.1);
+        box-shadow: 2px 0px 26px 1px #000000;
+    }
